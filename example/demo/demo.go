@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/enriqueChen/ssgstuffer/example"
-	"github.com/enriqueChen/ssgstuffer/interfaces"
-	"github.com/enriqueChen/ssgstuffer/testsuite"
+	"github.com/enriqueChen/stuffer/example"
+	"github.com/enriqueChen/stuffer/interfaces"
+	"github.com/enriqueChen/stuffer/testsuite"
 )
 
 var tLog *logging.Logger

@@ -3,8 +3,8 @@ package testsuite
 import (
 	"time"
 
-	"github.com/enriqueChen/ssgstuffer/interfaces"
-	"github.com/enriqueChen/ssgstuffer/status"
+	"github.com/enriqueChen/stuffer/interfaces"
+	"github.com/enriqueChen/stuffer/status"
 )
 
 func runcase(env interfaces.IEnvironment, tRes interfaces.ICaseResult) (err error) {
@@ -33,10 +33,10 @@ func runcase(env interfaces.IEnvironment, tRes interfaces.ICaseResult) (err erro
 		tCase.Identify())
 	c := make(chan error, 1)
 	go func() { c <- env.RunCase(tCase, tRes) }()
-	select{
+	select {
 	case err = <-c:
 		break
-	case <- time.After(tCase.Timeout()):
+	case <-time.After(tCase.Timeout()):
 		err = interfaces.NewErrCaseTimeout(tCase.Identify())
 	}
 	if err != nil {

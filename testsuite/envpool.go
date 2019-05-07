@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/enriqueChen/ssgstuffer/interfaces"
-	"github.com/enriqueChen/ssgstuffer/status"
+	"github.com/enriqueChen/stuffer/interfaces"
+	"github.com/enriqueChen/stuffer/status"
 )
 
 // EnvironPool provide the test environments

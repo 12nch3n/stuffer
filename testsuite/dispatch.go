@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/enriqueChen/ssgstuffer/interfaces"
-	"github.com/enriqueChen/ssgstuffer/status"
+	"github.com/enriqueChen/stuffer/interfaces"
+	"github.com/enriqueChen/stuffer/status"
 )
 
 // WaitEnvTimeout case Runner wait for test environment timeout

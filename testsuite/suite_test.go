@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/enriqueChen/stuffer/anareva"
+	"github.com/enriqueChen/stuffer/interfaces"
+	"github.com/enriqueChen/stuffer/status"
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"
-	"github.com/enriqueChen/ssgstuffer/anareva"
-	"github.com/enriqueChen/ssgstuffer/interfaces"
-	"github.com/enriqueChen/ssgstuffer/status"
 )
 
 func TestMain(m *testing.M) {

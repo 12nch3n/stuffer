@@ -1,4 +1,4 @@
-module github.com/enriqueChen/ssgstuffer
+module github.com/enriqueChen/stuffer
 
 require (
 	github.com/beevik/etree v1.1.0

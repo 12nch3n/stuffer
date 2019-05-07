@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/enriqueChen/ssgstuffer/interfaces"
+	"github.com/enriqueChen/stuffer/interfaces"
 )
 
 // Result Implements the ICaseResult interface

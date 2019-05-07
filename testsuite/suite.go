@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/beevik/etree"
+	"github.com/enriqueChen/stuffer/interfaces"
+	"github.com/enriqueChen/stuffer/utils/junit"
 	logging "github.com/op/go-logging"
-	"github.com/enriqueChen/ssgstuffer/interfaces"
-	"github.com/enriqueChen/ssgstuffer/utils/junit"
 )
 
 var (

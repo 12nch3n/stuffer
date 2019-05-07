@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/beevik/etree"
-	"github.com/enriqueChen/ssgstuffer/interfaces"
-	"github.com/enriqueChen/ssgstuffer/status"
+	"github.com/enriqueChen/stuffer/interfaces"
+	"github.com/enriqueChen/stuffer/status"
 )
 
 // TestsuiteS struct for xml

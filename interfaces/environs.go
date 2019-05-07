@@ -1,6 +1,6 @@
 package interfaces
 
-import "github.com/enriqueChen/ssgstuffer/status"
+import "github.com/enriqueChen/stuffer/status"
 
 // IEnvironment defines testing environment interface
 type IEnvironment interface {

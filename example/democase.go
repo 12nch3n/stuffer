@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/enriqueChen/ssgstuffer/common"
-	"github.com/enriqueChen/ssgstuffer/interfaces"
-	"github.com/enriqueChen/ssgstuffer/status"
+	"github.com/enriqueChen/stuffer/common"
+	"github.com/enriqueChen/stuffer/interfaces"
+	"github.com/enriqueChen/stuffer/status"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/enriqueChen/ssgstuffer/status"
+	"github.com/enriqueChen/stuffer/status"
 )
 
 // ICaseFile interface to manager test case list````	`

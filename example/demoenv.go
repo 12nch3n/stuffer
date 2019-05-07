@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/enriqueChen/ssgstuffer/interfaces"
-	"github.com/enriqueChen/ssgstuffer/status"
+	"github.com/enriqueChen/stuffer/interfaces"
+	"github.com/enriqueChen/stuffer/status"
 )
 
 // MaxCapacity defines the max capacity of parallel environments
