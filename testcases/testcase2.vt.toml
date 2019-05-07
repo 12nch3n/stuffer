@@ -1,0 +1,17 @@
+[[testcase]]
+savePath="./tmp"
+name="demoCase4" #reportName
+description="This is demoCase4"
+date_range="last_full_day"#"2019/04/02,2019/04/04"#
+dimensions="Network ID,Ad Unit ID,Network Name"#"Network Name,Network ID"
+filters="{}"#'{"Network ID":{"type":"number","values":[{"condition":"is_equal_to","value":"1234999"}]},"Delivery Method":{"type":"string","values":[{"condition":"contains","value":"asd"}]}}'
+metrics="Auto-played Impressions,Auto-refreshed Impressions,Net Delivered Impressions"#"Net Delivered Impressions"
+
+[[testcase]]
+savePath="./tmp"
+name="demoCase5"
+description="This is demoCase5"
+date_range="2019/04/02,2019/04/04"
+dimensions="Network ID,Ad Unit ID,Network Name"#"Network Name,Network ID"
+filters="{}"#'{"Network ID":{"type":"number","values":[{"condition":"is_equal_to","value":"1234999"}]},"Delivery Method":{"type":"string","values":[{"condition":"contains","value":"asd"}]}}'
+metrics="Auto-played Impressions,Auto-refreshed Impressions,Net Delivered Impressions"#"Net Delivered Impressions"

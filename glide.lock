@@ -1,0 +1,23 @@
+hash: 1ea225095e61072b04f426da2e56dc347c79eab6c1dfd625028ef3f866525fcb
+updated: 2019-04-24T18:59:35.716617+08:00
+imports:
+- name: github.com/beevik/etree
+  version: 8aee6516be3b1163bb6450c35c50e4969e3a3aa8
+- name: github.com/BurntSushi/toml
+  version: 3012a1dbe2e4bd1391d42b32f0577cb7bbc7f005
+- name: github.com/op/go-logging
+  version: b2cb9fa56473e98db8caba80237377e83fe44db5
+testImports:
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 5d4384ee4fb2527b0a1256a821ebfc92f91efefc
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: ffdc059bfe9ce6a4e144ba849dbedead332c6053
+  subpackages:
+  - assert
+  - require
