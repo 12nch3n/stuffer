@@ -17,7 +17,7 @@ const (
 func (s EnvStatus) String() string {
 	switch s {
 	case EnvAvailable:
-		return "AVALIABLE"
+		return "AVAILABLE"
 	case EnvBusy:
 		return "BUSY"
 	case EnvCrashed:

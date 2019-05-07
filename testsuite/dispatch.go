@@ -79,7 +79,7 @@ func (q *TestingQueue) run(sendRetry chan<- interfaces.ICaseResult, exit chan<- 
 				q.m.Done()
 				return
 			}
-			e, envOk := <-tEnvPool.Wait4Using //! Blocked if no avaliable environments
+			e, envOk := <-tEnvPool.Wait4Using //! Blocked if no available environments
 			if !envOk {
 				tLogger.Warning("environment for using queue closed, test execution work about to exit.")
 				q.m.Done()
