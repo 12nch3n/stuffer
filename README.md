@@ -1,3 +1,5 @@
+![](https://goreportcard.com/report/github.com/enriqueChen/ssgstuffer)
+![](https://img.shields.io/github/license/enriqueChen/ssgstuffer.svg)
 # ssgstuffer
 
 SAUSAGE STUFFER
