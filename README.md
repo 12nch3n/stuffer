@@ -1,4 +1,5 @@
-![](https://goreportcard.com/report/github.com/enriqueChen/stuffer)
+![](https://goreportcard.com/badge/github.com/enriqueChen/stuffer)
+
 ![](https://img.shields.io/github/license/enriqueChen/stuffer.svg)
 # stuffer
 
