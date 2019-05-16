@@ -1,6 +1,5 @@
-![](https://goreportcard.com/badge/github.com/enriqueChen/stuffer)
+![](https://img.shields.io/github/languages/top/enriqueChen/stuffer.svg?style=for-the-badge) ![](https://goreportcard.com/badge/github.com/enriqueChen/stuffer?style=for-the-badge) ![](https://img.shields.io/github/languages/code-size/enriqueChen/stuffer.svg?style=for-the-badge) ![](https://img.shields.io/github/license/enriqueChen/stuffer.svg?style=for-the-badge) ![](https://img.shields.io/github/issues-raw/enriqueChen/stuffer.svg?style=for-the-badge) ![](ihttps://img.shields.io/github/issues-closed/enriqueChen/stuffer.svg?style=for-the-badge)
 
-![](https://img.shields.io/github/license/enriqueChen/stuffer.svg)
 # stuffer
 
 STUFFER
