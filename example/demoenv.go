@@ -12,7 +12,7 @@ import (
 // MaxCapacity defines the max capacity of parallel environments
 const MaxCapacity = 3
 
-// InitEnvirons implements to produce a executor for Analytics Report Validation
+// InitEnvirons implements to produce a executor for testing
 func InitEnvirons(envInfos ...string) (ret []interfaces.IEnvironment, err error) {
 	ret = append(ret, &DemoEnv{m: &sync.Mutex{}, String: "Env No.1"})
 	ret = append(ret, &DemoEnv{m: &sync.Mutex{}, String: "Env No.2"})
@@ -59,7 +59,7 @@ func (de *DemoEnv) Setup(tCase interfaces.ICase) (err error) {
 	return
 }
 
-// RunCase implement the test case run for analytics reports validation testing
+// RunCase implement the test case run for testing
 func (de *DemoEnv) RunCase(tCase interfaces.ICase, tRes interfaces.ICaseResult) (err error) {
 	time.Sleep(5 * time.Second)
 	err = tCase.Assert(tRes)
